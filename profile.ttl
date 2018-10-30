@@ -3,7 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://w3id.org/people/brechtvdv/#me>
+<https://w3id.org/people/brechtvdv/#me>
   a foaf:Person, schema:Person ;
   owl:sameAs "https://data.verborgh.org/people/brecht_van_de_vyvere"^^xsd:string ;
   foaf:img <https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg> ;
