@@ -20,10 +20,30 @@
     "license": {
       "@id": "http://creativecommons.org/ns#license",
       "@type": "@id"
+    },
+    "void": "http://rdfs.org/ns/void#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "foaf:primaryTopic": {
+      "@type": "@id"
+    },
+    "void:inDataset": {
+      "@type": "@id"
     }
   },
-  "@id": "https://brechtvdv.github.io/",
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "@id": "https://brechtvdv.github.io/#Dataset",
+  "@type": "void:Dataset",
+  "dcterms:subject": "https://w3id.org/people/brechtvdv/#me",
+  "foaf:primaryTopic": "https://w3id.org/people/brechtvdv/#me",
+  "dcterms:description": "Dataset about Brecht Van de Vyvere",
+  "void:datadump": {
+    "@id": "https://brechtvdv.github.io/",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "rdfs:label": "Website of Brecht Van de Vyvere",
+    "rdfs:comment": "This document shows how to publish personal data through rich snippets (JSON-LD).",
+    "void:inDataset": "https://brechtvdv.github.io/#Dataset"
+  },
   "@graph": [{
     "@id": "https://w3id.org/people/brechtvdv/#me",
     "@type": "foaf:Person",
