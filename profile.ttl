@@ -6,10 +6,10 @@
 
 <https://w3id.org/people/brechtvdv/#me>
   a foaf:Person, schema:Person ;
-  owl:sameAs "https://data.verborgh.org/people/brecht_van_de_vyvere"^^xsd:string ;
+  owl:sameAs <https://data.verborgh.org/people/brecht_van_de_vyvere> ;
   foaf:img <https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg> ;
   foaf:knows <https://pietercolpaert.be/#me>, <https://ruben.verborgh.org/profile/#me>, <https://sven-lieber.org/profile#me>, <https://pieterheyvaert.com/#me>, <http://www.rubensworks.net/#me>, <http://ben.de-meester.org/#me>, <http://csarven.ca/#i>, <http://w3id.org/people/dylanvanassche/#me> ;
-  foaf:mbox "<mailto:brecht.vandevyvere@ugent.be>"^^xsd:string, "<mailto:br5cht@hotmail.com>"^^xsd:string ;
+  foaf:mbox <mailto:brecht.vandevyvere@ugent.be>, <mailto:br5cht@hotmail.com> ;
   foaf:name "Brecht Van de Vyvere"^^xsd:string ;
   pim:storage <https://brechtvdv.solid.community/public/>;
   schema:address <http://data.vlaanderen.be/id/adres/3830588> ;
