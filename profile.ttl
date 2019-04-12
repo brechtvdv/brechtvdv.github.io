@@ -2,6 +2,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pim: <http://www.w3.org/ns/pim/space#> .
 
 <https://w3id.org/people/brechtvdv/#me>
   a foaf:Person, schema:Person ;
@@ -10,6 +11,7 @@
   foaf:knows <https://pietercolpaert.be/#me>, <https://ruben.verborgh.org/profile/#me>, <https://sven-lieber.org/profile#me>, <https://pieterheyvaert.com/#me>, <http://www.rubensworks.net/#me>, <http://ben.de-meester.org/#me>, <http://csarven.ca/#i>, <http://w3id.org/people/dylanvanassche/#me> ;
   foaf:mbox "<mailto:brecht.vandevyvere@ugent.be>"^^xsd:string, "<mailto:br5cht@hotmail.com>"^^xsd:string ;
   foaf:name "Brecht Van de Vyvere"^^xsd:string ;
+  pim:storage <https://brechtvdv.solid.community/public/>;
   schema:address <http://data.vlaanderen.be/id/adres/3830588> ;
   schema:colleague <https://pietercolpaert.be/#me>, <https://ruben.verborgh.org/profile/#me>, <https://sven-lieber.org/profile#me>, <https://pieterheyvaert.com/#me>, <http://www.rubensworks.net/#me>, <http://ben.de-meester.org/#me>, <http://w3id.org/people/dylanvanassche/#me> ;
   schema:email "mailto:brecht.vandevyvere@ugent.be"^^xsd:string ;
