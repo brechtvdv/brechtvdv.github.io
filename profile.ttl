@@ -3,11 +3,13 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix pim: <http://www.w3.org/ns/pim/space#> .
+@prefix dbo: <http://dbpedia.org/ontology/>.
 
 <https://w3id.org/people/brechtvdv/#me>
   a foaf:Person, schema:Person ;
   owl:sameAs <https://data.verborgh.org/people/brecht_van_de_vyvere> ;
   owl:sameAs <https://biblio.ugent.be/person/802002780397> ;
+  owl:sameAs <https://orcid.org/0000-0002-7671-6203> ;
   foaf:img <https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg> ;
   foaf:knows <https://pietercolpaert.be/#me>, <https://ruben.verborgh.org/profile/#me>, <https://sven-lieber.org/profile#me>, <https://pieterheyvaert.com/#me>, <http://www.rubensworks.net/#me>, <http://ben.de-meester.org/#me>, <http://csarven.ca/#i>, <http://w3id.org/people/dylanvanassche/#me> ;
   foaf:mbox <mailto:brecht.vandevyvere@ugent.be>, <mailto:br5cht@hotmail.com> ;
@@ -18,4 +20,5 @@
   schema:email "mailto:brecht.vandevyvere@ugent.be"^^xsd:string ;
   schema:image <https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg> ;
   schema:name "Brecht Van de Vyvere"^^xsd:string ;
-  schema:url <https://brecht.github.io> .
+  schema:url <https://brecht.github.io> ;
+  dbo:orcidId "0000-0002-7671-6203" .
