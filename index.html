@@ -25,11 +25,18 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "dcterms": "http://purl.org/dc/terms/",
     "dcat": "http://www.w3.org/ns/dcat#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "ldp:inbox": {
+      "@type": "@id"
+    },
     "pim": "http://www.w3.org/ns/pim/space#",
     "pim:storage": {
       "@type": "@id"
     },
     "foaf:primaryTopic": {
+      "@type": "@id"
+    },
+    "foaf:account": {
       "@type": "@id"
     },
     "void:inDataset": {
@@ -72,8 +79,10 @@
     }],
     "foaf:img": "https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg",
     "foaf:mbox": ["<mailto:brecht.vandevyvere@ugent.be>", "<mailto:br5cht@hotmail.com>"],
-    "pim:storage": "https://brechtvdv.solid.community/public/",
+    "ldp:inbox": "https://brechtvdv.solid.community/inbox/",
+    "pim:storage": [ "https://brechtvdv.solid.community/public/", "https://brechtvdv.solid.community/"],
     "dbo:orcidId": "0000-0002-7671-6203",
+    "foaf:account": [ "https://twitter.com/brechtvdv" ]
     "foaf:knows": [
       "https://pietercolpaert.be/#me",
       "https://ruben.verborgh.org/profile/#me",
@@ -133,7 +142,8 @@
     "email": "mailto:brecht.vandevyvere@ugent.be",
     "image": "https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg",
     "name": "Brecht Van de Vyvere",
-    "url": "https://brechtvdv.github.io"
+    "url": "https://brechtvdv.github.io",
+    "owns": "https://brechtvdv.solid.community/profile/card#me"
   }]
 }
   </script>
