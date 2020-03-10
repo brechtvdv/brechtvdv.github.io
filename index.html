@@ -9,11 +9,11 @@
   "@context": {
     "foaf": "http://xmlns.com/foaf/0.1/",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "knows": {
+    "foaf:knows": {
       "@type": "@id",
       "@id": "http://xmlns.com/foaf/0.1/knows"
     },
-    "img": {
+    "foaf:img": {
       "@id": "foaf:img",
       "@type": "@id"
     },
@@ -56,11 +56,25 @@
     "owl:sameAs": "https://biblio.ugent.be/person/802002780397",
     "owl:sameAs": "https://orcid.org/0000-0002-7671-6203",
     "foaf:name": "Brecht Van de Vyvere",
-    "img": "https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg",
+    "foaf:givenName": [{
+      "@value": "Brecht",
+      "@language": "nl"
+    }, {
+      "@value": "Brecht",
+      "@language": "en"
+    }],
+    "foaf:familyName": [{
+      "@value": "Van de Vyvere",
+      "@language": "nl"
+    }, {
+      "@value": "Van de Vyvere",
+      "@language": "en"
+    }],
+    "foaf:img": "https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg",
     "foaf:mbox": ["<mailto:brecht.vandevyvere@ugent.be>", "<mailto:br5cht@hotmail.com>"],
     "pim:storage": "https://brechtvdv.solid.community/public/",
     "dbo:orcidId": "0000-0002-7671-6203",
-    "knows": [
+    "foaf:knows": [
       "https://pietercolpaert.be/#me",
       "https://ruben.verborgh.org/profile/#me",
       "https://sven-lieber.org/profile#me",
@@ -71,6 +85,36 @@
       "http://w3id.org/people/dylanvanassche/#me"
     ]
   }, {
+    "@context": "http://www.w3.org/2006/vcard/ns",
+    "@id": "https://w3id.org/people/brechtvdv/#me",
+    "@type": "Individual",
+    "fn": "Brecht Van de Vyvere",
+    "title": "PhD researcher",
+    "given-name": [{
+      "@value": "Brecht",
+      "@language": "nl"
+    }, {
+      "@value": "Brecht",
+      "@language": "en"
+    }],
+    "family-name": [{
+      "@value": "Van de Vyvere",
+      "@language": "nl"
+    }, {
+      "@value": "Van de Vyvere",
+      "@language": "en"
+    }],
+    "hasEmail": {
+      "@type": "Email",
+      "hasValue": "mailto:brecht.vandevyvere@ugent.be"
+    },
+    "hasAdress": {
+      "@id": "http://data.vlaanderen.be/id/adres/3830588",
+      "@type": "Address"
+    },
+    "hasPhoto": "https://pbs.twimg.com/profile_images/469446642928611328/QvEfDm0H_400x400.jpeg"
+  },
+  {
     "@context": "https://schema.org",
     "@id": "https://w3id.org/people/brechtvdv/#me",
     "@type": "Person",
