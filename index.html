@@ -54,49 +54,51 @@
     },
     "dbo": "http://dbpedia.org/ontology/"
   },
-  "@graph": [{
-    "@id": "https://w3id.org/people/brechtvdv/#me",
-    "@type": "foaf:Person",
-    "owl:sameAs": "https://data.verborgh.org/people/brecht_van_de_vyvere",
-    "owl:sameAs": "https://biblio.ugent.be/person/802002780397",
-    "owl:sameAs": "https://orcid.org/0000-0002-7671-6203",
-    "owl:sameAs": "https://brechtvdv.solid.community/profile/card#me",
-    "foaf:name": "Brecht Van de Vyvere",
-    "foaf:givenName": [{
-      "@value": "Brecht",
-      "@language": "nl"
-    }, {
-      "@value": "Brecht",
-      "@language": "en"
-    }],
-    "foaf:familyName": [{
-      "@value": "Van de Vyvere",
-      "@language": "nl"
-    }, {
-      "@value": "Van de Vyvere",
-      "@language": "en"
-    }],
-    "foaf:img": "https://brechtvdv.github.io/profile.jpg",
-    "foaf:mbox": ["mailto:brecht.vandevyvere@ugent.be", "mailto:br5cht@hotmail.com"],
-    "ldp:inbox": "https://brechtvdv.solid.community/inbox/",
-    "pim:storage": [ "https://brechtvdv.solid.community/public/", "https://brechtvdv.solid.community/"],
-    "pim:preferencesFile": "https://brechtvdv.solid.community/settings/prefs.ttl",
-    "solidterms:publicTypeIndex": [ "https://brechtvdv.solid.community/profile/publicTypeIndex.ttl", "https://brechtvdv.solid.community/settings/publicTypeIndex.ttl" ],
-    "solidterms:privateTypeIndex": "https://brechtvdv.solid.community/settings/privateTypeIndex.ttl",
-    "solidterms:account": "https://brechtvdv.solid.community/profile/card/",
-    "dbo:orcidId": "0000-0002-7671-6203",
-    "foaf:account": [ "https://twitter.com/brechtvdv" ],
-    "foaf:knows": [
-      "https://pietercolpaert.be/#me",
-      "https://ruben.verborgh.org/profile/#me",
-      "https://sven-lieber.org/profile#me",
-      "https://pieterheyvaert.com/#me",
-      "http://www.rubensworks.net/#me",
-      "http://ben.de-meester.org/#me",
-      "http://csarven.ca/#i",
-      "http://w3id.org/people/dylanvanassche/#me"
-    ]
+  "@id": "https://w3id.org/people/brechtvdv/#me",
+  "@type": "foaf:Person",
+  "owl:sameAs": "https://data.verborgh.org/people/brecht_van_de_vyvere",
+  "owl:sameAs": "https://biblio.ugent.be/person/802002780397",
+  "owl:sameAs": "https://orcid.org/0000-0002-7671-6203",
+  "owl:sameAs": "https://brechtvdv.solid.community/profile/card#me",
+  "foaf:name": "Brecht Van de Vyvere",
+  "foaf:givenName": [{
+    "@value": "Brecht",
+    "@language": "nl"
   }, {
+    "@value": "Brecht",
+    "@language": "en"
+  }],
+  "foaf:familyName": [{
+    "@value": "Van de Vyvere",
+    "@language": "nl"
+  }, {
+    "@value": "Van de Vyvere",
+    "@language": "en"
+  }],
+  "foaf:img": "https://brechtvdv.github.io/profile.jpg",
+  "foaf:mbox": ["mailto:brecht.vandevyvere@ugent.be", "mailto:br5cht@hotmail.com"],
+  "ldp:inbox": "https://brechtvdv.solid.community/inbox/",
+  "pim:storage": [ "https://brechtvdv.solid.community/public/", "https://brechtvdv.solid.community/"],
+  "pim:preferencesFile": "https://brechtvdv.solid.community/settings/prefs.ttl",
+  "solidterms:publicTypeIndex": [ "https://brechtvdv.solid.community/profile/publicTypeIndex.ttl", "https://brechtvdv.solid.community/settings/publicTypeIndex.ttl" ],
+  "solidterms:privateTypeIndex": "https://brechtvdv.solid.community/settings/privateTypeIndex.ttl",
+  "solidterms:account": "https://brechtvdv.solid.community/profile/card/",
+  "dbo:orcidId": "0000-0002-7671-6203",
+  "foaf:account": [ "https://twitter.com/brechtvdv" ],
+  "foaf:knows": [
+    "https://pietercolpaert.be/#me",
+    "https://ruben.verborgh.org/profile/#me",
+    "https://sven-lieber.org/profile#me",
+    "https://pieterheyvaert.com/#me",
+    "http://www.rubensworks.net/#me",
+    "http://ben.de-meester.org/#me",
+    "http://csarven.ca/#i",
+    "http://w3id.org/people/dylanvanassche/#me"
+  ]
+} 
+</script>
+<script type="application/ld+json">
+{
     "@context": "http://www.w3.org/2006/vcard/ns",
     "@id": "https://w3id.org/people/brechtvdv/#me",
     "@type": "Individual",
@@ -127,7 +129,9 @@
     "hasPhoto": "https://brechtvdv.github.io/profile.jpg",
     "organization-name": "IDLab",
     "role": "PhD researcher"
-  },
+  }
+</script>
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@id": "https://w3id.org/people/brechtvdv/#me",
@@ -149,7 +153,59 @@
     "name": "Brecht Van de Vyvere",
     "url": "https://brechtvdv.github.io",
     "owns": "https://brechtvdv.solid.community/profile/card#me"
-  },{
+  }
+</script>
+<script type="application/ld+json">
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "foaf:knows": {
+      "@type": "@id",
+      "@id": "http://xmlns.com/foaf/0.1/knows"
+    },
+    "foaf:img": {
+      "@id": "foaf:img",
+      "@type": "@id"
+    },
+    "foaf:mbox": {
+      "@id": "foaf:mbox",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "http://creativecommons.org/ns#license",
+      "@type": "@id"
+    },
+    "void": "http://rdfs.org/ns/void#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "ldp:inbox": {
+      "@type": "@id"
+    },
+    "solidterms": "http://www.w3.org/ns/solid/terms#",
+    "solidterms:publicTypeIndex": {
+      "@type": "@id"
+    },
+    "solidterms:privateTypeIndex": {
+      "@type": "@id"
+    },
+    "pim": "http://www.w3.org/ns/pim/space#",
+    "pim:storage": {
+      "@type": "@id"
+    },
+    "foaf:primaryTopic": {
+      "@type": "@id"
+    },
+    "foaf:account": {
+      "@type": "@id"
+    },
+    "void:inDataset": {
+      "@type": "@id"
+    },
+    "dbo": "http://dbpedia.org/ontology/"
+  },
   "@id": "https://brechtvdv.github.io/#Dataset",
   "@type": "void:Dataset",
   "dcterms:subject": "https://w3id.org/people/brechtvdv/#me",
@@ -162,9 +218,8 @@
     "rdfs:comment": "This document shows how to publish personal data through rich snippets (JSON-LD).",
     "void:inDataset": "https://brechtvdv.github.io/#Dataset"
   }
-  }]
 }
-  </script>
+</script>
 </head>
 <body>
   <h1>Homepage Brecht Van de Vyvere</h1>
