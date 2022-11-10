@@ -5,7 +5,7 @@
 @prefix pim: <http://www.w3.org/ns/pim/space#> .
 @prefix dbo: <http://dbpedia.org/ontology/>.
 @prefix solidterms: <http://www.w3.org/ns/solid/terms#>.
-@prefix wd: <http://www.wikidata.org/entity/>
+@prefix wdt: <http://www.wikidata.org/prop/direct/>.
 
 <https://w3id.org/people/brechtvdv/#me>
   a foaf:Person, schema:Person ;
@@ -24,5 +24,5 @@
   schema:image <https://brechtvdv.github.io/profile.jpg> ;
   schema:name "Brecht Van de Vyvere"^^xsd:string ;
   schema:url <https://brecht.github.io> ;
-  wd:P4033 "brechtvdv@fosstodon.org" ;
+  wdt:P4033 "brechtvdv@fosstodon.org" ;
   dbo:orcidId "0000-0002-7671-6203" .
